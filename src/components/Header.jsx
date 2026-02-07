@@ -29,7 +29,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="bg-[#0B0B14] py-3 px-6 relative flex items-center justify-between">
+      <header className="fixed top-0 left-0 w-full z-50 py-3 px-6 flex items-center justify-between">
         <div className="flex items-center ">
           <img
             className="size-14"
