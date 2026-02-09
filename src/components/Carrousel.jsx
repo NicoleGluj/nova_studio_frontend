@@ -71,7 +71,7 @@ export const RotatingCarouselCards = () => {
     const id = setInterval(() => {
       setAnim(true)
       setIndex((i) => i + 1)
-    }, 2800)
+    }, 4000)
     return () => clearInterval(id)
   }, [])
 
@@ -111,7 +111,7 @@ export const RotatingCarouselCards = () => {
     vw && cw ? Math.round(-(index * step) + (vw / 2 - pl - cw / 2)) : 0
 
   return (
-    <section className="bg-[#0B0B14] py-20 px-6 overflow-hidden">
+    <section className="bg-[#0B0B14] px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div
           ref={viewportRef}
@@ -141,7 +141,7 @@ export const RotatingCarouselCards = () => {
                     "w-[82vw] sm:w-[420px] lg:w-[320px] xl:w-[340px]",
                     "transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]",
                     isCenter
-                      ? "border border-white/40 shadow-[0_0_30px_rgba(255,255,255,0.18)] opacity-100"
+                      ? "border border-white/40 opacity-100"
                       : "border border-white/15 opacity-60",
                   ].join(" ")}
                 >
