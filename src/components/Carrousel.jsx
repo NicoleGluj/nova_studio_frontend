@@ -137,8 +137,8 @@ export const RotatingCarouselCards = () => {
                   data-card
                   ref={i === 0 ? cardRef : null}
                   className={[
-                    "shrink-0 rounded-xl p-6",
-                    "w-[82vw] sm:w-[420px] lg:w-[320px] xl:w-[340px]",
+                    "shrink-0 rounded-xl p-8 py-10 ",
+                    "w-[82vw] sm:w-[380px] lg:w-[420px] 2xl:w-[520px]",
                     "transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]",
                     isCenter
                       ? "border border-white/40 opacity-100"
@@ -147,7 +147,7 @@ export const RotatingCarouselCards = () => {
                 >
                   <h3
                     className={[
-                      "font-medium mb-3",
+                      "font-medium italic mb-3 text-2xl lg:text-3xl 2xl:text-4xl",
                       isCenter ? "text-white" : "text-white/70",
                     ].join(" ")}
                   >
@@ -156,7 +156,7 @@ export const RotatingCarouselCards = () => {
 
                   <p
                     className={[
-                      "text-sm leading-relaxed",
+                      "text-sm lg:text-xl 2xl:text-2xl leading-relaxed font-light",
                       isCenter ? "text-white/80" : "text-white/50",
                     ].join(" ")}
                   >
