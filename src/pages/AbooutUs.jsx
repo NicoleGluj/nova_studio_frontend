@@ -6,7 +6,7 @@ export const AboutUs = () => {
   return (
     <Layout>
       <section className="bg-[#0B0B14] min-h-screen">
-        <section className="py-25 px-10">
+        <section className="pt-25 pb-10 px-10">
           <h2 className="text-white py-5 px-5 text-2xl border-2 w-full rounded-3xl font-regular uppercase">Quienes somos</h2>
         </section>
         <section className="bg-[#0B0B14] py- px-10  gap-10  items-stretch">

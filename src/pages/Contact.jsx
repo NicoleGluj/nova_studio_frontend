@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <Layout>
       <section className="bg-[#0B0B14] min-h-screen">
-        <div className="py-24 px-6 sm:px-10">
+        <div className="pt-25 pb-10 px-6 sm:px-10">
           <h2 className="text-white py-5 px-5 text-2xl border-2 w-full rounded-3xl font-regular uppercase">
             Contacto
           </h2>
