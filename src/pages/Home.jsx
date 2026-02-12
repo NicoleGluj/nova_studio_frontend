@@ -65,7 +65,7 @@ export const Home = () => {
             <div className="flex flex-col md:flex-row gap-5 mt-3">
               <Link
                 className="py-2 px-8 rounded-3xl border-2 font-medium 2xl:text-xl"
-                to={"/"}>Ver proyectos </Link>
+                to={"/services"}>Nuestros servicios </Link>
               <Link
                 className=" py-2 px-8 rounded-3xl border-2 font-medium 2xl:text-xl"
                 to={"/"}>Trabajemos juntos</Link>

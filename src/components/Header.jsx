@@ -56,7 +56,7 @@ export const Header = () => {
         <nav className="hidden  items-center gap-10 text-white font-medium md:flex">
           <Link to={"/"}>[ Home ]</Link>
           <Link to={"/aboutUs"}>[ About Us ]</Link>
-          <Link to={"/"}>[ Services ]</Link>
+          <Link to={"/services"}>[ Services ]</Link>
           <Link to={"/"}>[ Contact ]</Link>
         </nav>
 
@@ -106,7 +106,7 @@ export const Header = () => {
             <nav className="flex flex-col gap-1 p-4 border-b border-gray-400">
               <Link to={"/"}> Home </Link>
               <Link to={"/aboutUs"}> About Us </Link>
-              <Link to={"/"}> Services </Link>
+              <Link to={"/services"}> Services </Link>
               <Link to={"/"}> Contact </Link>
             </nav>
           </aside>

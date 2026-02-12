@@ -31,7 +31,7 @@ export const AboutUs = () => {
             <div className="w-20 h-px bg-white"> </div>
           </div>
         </section>
-        <section className="flex flex-col bg-[#0B0B14] px-10 border  border-b-white">
+        <section className="flex flex-col bg-[#0B0B14] px-10 border-b  border-b-white">
           <h2 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl leading-tight text-white mt-15 font-light italic">
             Que nos <span className="font-medium">diferencia</span>
           </h2>
