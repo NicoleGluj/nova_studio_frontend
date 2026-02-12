@@ -1,11 +1,15 @@
 import { Footer } from "./Footer";
 import { Header } from "./Header";
+import { ScrollToTop } from "./ScrollToTop";
 
 export const Layout = (props) => {
   return (
     <>
+      <ScrollToTop />
       <Header />
-      {props.children}
+      <main>
+        {props.children}
+      </main>
       <Footer />
     </>
   )
