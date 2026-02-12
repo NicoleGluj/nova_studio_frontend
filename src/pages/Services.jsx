@@ -1,15 +1,12 @@
-import { Link } from "react-router-dom"
-import { Header } from "../components/Header"
+import { Layout } from "../components/Layout"
 
 export const Services = () => {
   return (
-    <>
-      <Header />
+    <Layout>
       <section className="bg-[#0B0B14] h-screen ">
         <section className="py-25 px-10">
           <h2 className="text-white py-5 px-5 text-2xl border-2 w-full rounded-3xl font-regular uppercase">Nuestros servicios</h2>
         </section>
-
         <section className="bg-[#0B0B14] px-10 gap-10  items-stretch text-white ">
           <div className=" gap-4 flex flex-col border-l-2 border-l-white px-10">
             <div>
@@ -69,8 +66,7 @@ export const Services = () => {
             </div>
           </div>
         </section>
-
       </section >
-    </>
+    </Layout>
   )
 }

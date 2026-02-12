@@ -1,17 +1,14 @@
-import { Header } from "../components/Header"
-import personAbout from "../assets/person-about.jpg"
-import { Link } from "react-router-dom"
 
+import { Link } from "react-router-dom"
+import { Layout } from "../components/Layout"
 
 export const AboutUs = () => {
   return (
-    <>
-      <Header />
+    <Layout>
       <section className="bg-[#0B0B14] h-screen ">
         <section className="py-25 px-10">
           <h2 className="text-white py-5 px-5 text-2xl border-2 w-full rounded-3xl font-regular uppercase">Quienes somos</h2>
         </section>
-
         <section className="bg-[#0B0B14] py- px-10  gap-10  items-stretch">
           <div className="text-white flex flex-col gap-4 sm:gap-10 justify-center">
             <h2 className="text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl leading-tight">
@@ -57,6 +54,6 @@ export const AboutUs = () => {
             to={"/"}>Ver proyectos </Link>
         </section>
       </section >
-    </>
+    </Layout>
   )
 }
