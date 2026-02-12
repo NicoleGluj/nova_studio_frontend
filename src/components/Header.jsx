@@ -57,7 +57,7 @@ export const Header = () => {
           <Link to={"/"}>[ Home ]</Link>
           <Link to={"/aboutUs"}>[ About Us ]</Link>
           <Link to={"/services"}>[ Services ]</Link>
-          <Link to={"/"}>[ Contact ]</Link>
+          <Link to={"/contact"}>[ Contact ]</Link>
         </nav>
 
         <div
@@ -107,7 +107,7 @@ export const Header = () => {
               <Link to={"/"}> Home </Link>
               <Link to={"/aboutUs"}> About Us </Link>
               <Link to={"/services"}> Services </Link>
-              <Link to={"/"}> Contact </Link>
+              <Link to={"/contact"}> Contact </Link>
             </nav>
           </aside>
         </div>

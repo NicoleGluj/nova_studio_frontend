@@ -3,11 +3,11 @@ import { Layout } from "../components/Layout"
 export const Services = () => {
   return (
     <Layout>
-      <section className="bg-[#0B0B14] h-screen ">
-        <section className="py-25 px-10">
+      <section className="bg-[#0B0B14] min-h-screen">
+        <section className="py-25 px-10 ">
           <h2 className="text-white py-5 px-5 text-2xl border-2 w-full rounded-3xl font-regular uppercase">Nuestros servicios</h2>
         </section>
-        <section className="bg-[#0B0B14] px-10 gap-10  items-stretch text-white ">
+        <section className="bg-[#0B0B14] px-10 gap-10  items-stretch text-white">
           <div className=" gap-4 flex flex-col border-l-2 border-l-white px-10">
             <div>
               <h2 className="text-xl sm:text-2xl font-semibold ">
@@ -66,6 +66,7 @@ export const Services = () => {
             </div>
           </div>
         </section>
+        <div className="h-20 bg-[#0B0B14]"></div>
       </section >
     </Layout>
   )

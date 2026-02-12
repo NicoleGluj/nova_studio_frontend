@@ -5,7 +5,7 @@ import { Layout } from "../components/Layout"
 export const AboutUs = () => {
   return (
     <Layout>
-      <section className="bg-[#0B0B14] h-screen ">
+      <section className="bg-[#0B0B14] min-h-screen">
         <section className="py-25 px-10">
           <h2 className="text-white py-5 px-5 text-2xl border-2 w-full rounded-3xl font-regular uppercase">Quienes somos</h2>
         </section>
