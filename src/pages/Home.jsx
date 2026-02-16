@@ -138,7 +138,7 @@ export const Home = () => {
         scrollTrigger: {
           trigger: ".cta-section",
           start: "top 85%",
-          toggleActions: "play none none reverse"
+          toggleActions: "play none none none"
         }
       })
 
@@ -151,7 +151,7 @@ export const Home = () => {
         scrollTrigger: {
           trigger: ".cta-section",
           start: "top 80%",
-          toggleActions: "play none none reverse"
+          toggleActions: "play none none none"
         }
       })
 
